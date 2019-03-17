@@ -1,6 +1,6 @@
-[建立你自己的iOS知识体系](https://github.com/rogertan30/GeekTime/建立你自己的iOS开发体系/blob/master/建立你自己的iOS知识体系.html)
+[建立你自己的iOS知识体系](https://github.com/rogertan30/GeekTime/tree/master/建立你自己的iOS开发体系/建立你自己的iOS知识体系.html)
 
-![block的类型](https://github.com/rogertan30/GeekTime/建立你自己的iOS开发体系/blob/master/images/体系图.png)
+![block的类型](https://github.com/rogertan30/GeekTime/tree/master/建立你自己的iOS开发体系/images/体系图.png)
 
 ## 开发阶段
 * 启动的快慢，可谓 App 的门面，同时关乎日常的使用体验，其重要性不言而喻。而只有了解了 App 的启动流程，才能合理安排启动阶段对功能初始化的节奏，将启动速度优化到极致。在专栏的基础篇，我会和你一起剖析 App 启动时都做了哪些事儿，让你可以掌控 App 的启动。
