@@ -5,3 +5,5 @@
 [02 | App 启动速度怎么做优化与监控？](https://github.com/rogertan30/GeekTime/tree/master/App%E5%90%AF%E5%8A%A8%E9%80%9F%E5%BA%A6%E6%80%8E%E4%B9%88%E5%81%9A%E4%BC%98%E5%8C%96%E4%B8%8E%E7%9B%91%E6%8E%A7%EF%BC%9F)
 
 [03 | Auto Layout 是怎么进行自动布局的，性能如何？](https://github.com/rogertan30/GeekTime/tree/master/AutoLayout%E6%98%AF%E6%80%8E%E4%B9%88%E8%BF%9B%E8%A1%8C%E8%87%AA%E5%8A%A8%E5%B8%83%E5%B1%80%E7%9A%84)
+
+[04 | 项目大了人员多了，架构怎么设计更合理？](https://github.com/rogertan30/GeekTime/tree/master/%E9%A1%B9%E7%9B%AE%E5%A4%A7%E4%BA%86%E4%BA%BA%E5%91%98%E5%A4%9A%E4%BA%86%E6%9E%B6%E6%9E%84%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%E6%9B%B4%E5%90%88%E7%90%86)
