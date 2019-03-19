@@ -1,4 +1,4 @@
-# GeekTime iOS开发高手课 阅读笔记
+# 极客时间 iOS开发高手课 阅读笔记
 
 [01 | 建立你自己的iOS开发知识体系](https://github.com/rogertan30/GeekTime/tree/master/%E5%BB%BA%E7%AB%8B%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84iOS%E5%BC%80%E5%8F%91%E4%BD%93%E7%B3%BB)
 
