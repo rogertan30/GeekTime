@@ -16,7 +16,7 @@ Auto Layout 不只有布局算法 Cassowary，还包含了布局在运行时的�
 
 ## Auto Layout 性能问题
 
-![性能问题](https://github.com/rogertan30/GeekTime/tree/master/AutoLayout是怎么进行自动布局的/images/性能问题.png =600x)
+![性能问题](https://github.com/rogertan30/GeekTime/tree/master/AutoLayout是怎么进行自动布局的/images/性能问题.png)
 
 上图是 WWDC 2018 中 202 Session 里讲到的 Auto Layout 在 iOS 12 中优化后的表现。可以看到，优化后的性能，已经基本和手写布局一样可以达到性能随着视图嵌套的数量呈线性增长了。而在此之前的 Auto Layout，视图嵌套的数量对性能的影响是呈指数级增长的。
 
@@ -28,7 +28,7 @@ Auto Layout 不只有布局算法 Cassowary，还包含了布局在运行时的�
 
 接下来，我们再看一下 WWDC 2018 中 202 Session 的 Auto Layout 在兄弟视图独立开布局的情况。
 
-![性能比较](https://github.com/rogertan30/GeekTime/tree/master/AutoLayout是怎么进行自动布局的/images/性能比较.png =600x)
+![性能比较](https://github.com/rogertan30/GeekTime/tree/master/AutoLayout是怎么进行自动布局的/images/性能比较.png)
 
 可以看到，兄弟视图之间没有关系时，是不会出现性能呈指数增加问题的。这就表示 Cassowary 算法在添加时是高效的。但如果兄弟视图间有关系的话，在视图遍历时会不断处理和兄弟视图间的关系，这时会有修改更新计算。
 
