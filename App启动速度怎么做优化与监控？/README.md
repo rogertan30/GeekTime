@@ -10,8 +10,23 @@
 2. 监控 C++ 静态对象的 initializer 和 ObjC Load 耗时的方法
 
 [优化 App 的启动时间-杨萧玉](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
+1.  WWDC 2016 Session 406 的学习笔记
 
 [iOS客户端启动速度优化-今日头条](https://techblog.toutiao.com/2017/01/17/iosspeed/#more)
+
+* main()调用之前的耗时
+    1. 减少不必要的framework，因为动态链接比较耗时
+    2. check framework应当设为optional和required，如果该framework在当前App支持的所有iOS系统版本都存在，那么就设为required，否则就设为optional，因为optional会有些额外的检查
+    3. 合并或者删减一些OC类，关于清理项目中没用到的类，使用工具AppCode代码检查功能
+    4. 删减没有被调用到或者已经废弃的方法
+    5. 将不必须在+load方法中做的事情延迟到+initialize中
+    6. 尽量不要用C++虚函数(创建虚函数表有开销)
+    
+* main()调用之后的加载时间
+    1. 不使用xib，直接视用代码加载首页视图
+    2. NSUserDefaults实际上是在Library文件夹下会生产一个plist文件，如果文件太大的话一次能读取到内存中可能很耗时，这个影响需要评估，如果耗时很大的话需要拆分(需考虑老版本覆盖安装兼容问题)
+    3. 每次用NSLog方式打印会隐式的创建一个Calendar，因此需要删减启动时各业务方打的log，或者仅仅针对内测版输出log
+    4. 梳理应用启动时发送的所有网络请求，是否可以统一在异步线程请求
 
 [iOS App 启动性能优化-WiFi管家](https://mp.weixin.qq.com/s/Kf3EbDIUuf0aWVT-UCEmbA)
 
