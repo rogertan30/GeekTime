@@ -41,9 +41,11 @@
 
 [iOS App如何优化启动时间-Facebook](http://www.cocoachina.com/ios/20160104/14870.html)
 
-[iOS 启动速度优化-百度输入法](https://www.infoq.cn/presentations/ios-typewriting-start-speed-optimization)
+我们提出了一个创造性的解决方案 — UDP 启动。本质上，我们在通过 TCP 发送摘要请求时，先发送一个编码过的包含摘要请求的 UDP 包到服务器。这样做的目的是唤醒服务器更早地去获取和缓存数据。当真正的摘要请求通过 TCP 到达时，服务器只需见到地从缓存内容中构造出响应，并发回客户端。这个技术使得我们可以减少几百毫秒的耗时。
 
 [一次立竿见影的启动时间优化](https://juejin.im/post/5a31190751882559e225a775)
+
+首屏渲染优化经验
 
 [obj中国-Mach-O 可执行文件](https://objccn.io/issue-6-3/)
 
