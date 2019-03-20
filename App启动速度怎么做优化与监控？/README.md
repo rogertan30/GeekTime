@@ -3,7 +3,11 @@
 
 [WWDC2016-406-Optimizing App Startup Time](https://developer.apple.com/videos/play/wwdc2016/406)
 
+优化应用程序启动时间(可调中文字幕)
+
 [WWDC2017-413-App Startup Time:Past,Present,and Future](https://developer.apple.com/videos/play/wwdc2017/413)
+
+应用程序启动时间：过去、现在和未来(可调中文字幕)
 
 [如何精准度量iOSAPP启动时间](https://www.jianshu.com/p/c14987eee107)
 1. Xcode 测量 pre-main 时间的两种方法
@@ -56,8 +60,6 @@
 [iOS动态库的使用](https://juejin.im/post/5b1f1d3a6fb9a01e6e2baded)
 
 [App启动之Dyld在做什么](https://juejin.im/post/5c8e278d51882545b32e657f)
-
-[优化 App 的启动时间](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
 
 # App 启动时都干了些什么事儿？
 一般情况下，App 的启动分为冷启动和热启动。
