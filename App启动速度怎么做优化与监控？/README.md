@@ -6,6 +6,8 @@
 [WWDC2017-413-App Startup Time:Past,Present,and Future](https://developer.apple.com/videos/play/wwdc2017/413)
 
 [如何精准度量iOSAPP启动时间](https://www.jianshu.com/p/c14987eee107)
+1. Xcode 测量 pre-main 时间的两种方法
+2. 监控 C++ 静态对象的 initializer 和 ObjC Load 耗时的方法
 
 [优化 App 的启动时间-杨萧玉](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
 
