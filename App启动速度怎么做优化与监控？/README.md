@@ -30,6 +30,15 @@
 
 [iOS App 启动性能优化-WiFi管家](https://mp.weixin.qq.com/s/Kf3EbDIUuf0aWVT-UCEmbA)
 
+* 应该在400ms内完成main()函数之前的加载
+
+1. 移除不需要用到的动态库
+2. 移除不需要用到的类
+3. 合并功能类似的类和扩展（Category）
+4. 压缩资源图片
+5. 优化applicationWillFinishLaunching
+6. 优化rootViewController加载
+
 [iOS App如何优化启动时间-Facebook](http://www.cocoachina.com/ios/20160104/14870.html)
 
 [iOS 启动速度优化-百度输入法](https://www.infoq.cn/presentations/ios-typewriting-start-speed-optimization)
