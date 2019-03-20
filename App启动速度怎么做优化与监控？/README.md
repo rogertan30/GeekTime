@@ -1,11 +1,35 @@
 
 # 扩展阅读
+
+[WWDC2016-406-Optimizing App Startup Time](https://developer.apple.com/videos/play/wwdc2016/406)
+
+[WWDC2017-413-App Startup Time:Past,Present,and Future](https://developer.apple.com/videos/play/wwdc2017/413)
+
+[如何精准度量iOSAPP启动时间](https://www.jianshu.com/p/c14987eee107)
+
+[优化 App 的启动时间-杨萧玉](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
+
+[iOS客户端启动速度优化-今日头条](https://techblog.toutiao.com/2017/01/17/iosspeed/#more)
+
+[iOS App 启动性能优化-WiFi管家](https://mp.weixin.qq.com/s/Kf3EbDIUuf0aWVT-UCEmbA)
+
+[iOS App如何优化启动时间-Facebook](http://www.cocoachina.com/ios/20160104/14870.html)
+
+[iOS 启动速度优化-百度输入法](https://www.infoq.cn/presentations/ios-typewriting-start-speed-optimization)
+
+[一次立竿见影的启动时间优化](https://juejin.im/post/5a31190751882559e225a775)
+
+[obj中国-Mach-O 可执行文件](https://objccn.io/issue-6-3/)
+
+[iOS app启动速度研究实践](https://zhuanlan.zhihu.com/p/38183046?from=1086193010&wm=3333_2001&weiboauthoruid=1690182120)
+
+[iOS App冷启动治理：来自美团外卖的实践](https://mp.weixin.qq.com/s/jN3jaNrvXczZoYIRCWZs7w)
+
 [iOS动态库的使用](https://juejin.im/post/5b1f1d3a6fb9a01e6e2baded)
 
 [App启动之Dyld在做什么](https://juejin.im/post/5c8e278d51882545b32e657f)
 
 [优化 App 的启动时间](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
-
 
 # App 启动时都干了些什么事儿？
 一般情况下，App 的启动分为冷启动和热启动。
