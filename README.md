@@ -9,3 +9,5 @@
 [04 | 项目大了人员多了，架构怎么设计更合理？](https://github.com/rogertan30/GeekTime/tree/master/%E9%A1%B9%E7%9B%AE%E5%A4%A7%E4%BA%86%E4%BA%BA%E5%91%98%E5%A4%9A%E4%BA%86%E6%9E%B6%E6%9E%84%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%E6%9B%B4%E5%90%88%E7%90%86)
 
 [05 | 链接器：符号是怎么绑定到地址上的？](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84)
+
+[06 | App 如何通过注入动态库的方式实现极速编译调试？](https://github.com/rogertan30/GeekTime/tree/master/App%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9F%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95)
