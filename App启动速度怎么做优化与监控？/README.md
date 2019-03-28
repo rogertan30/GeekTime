@@ -1,6 +1,8 @@
 
 # 扩展阅读
 
+[深入理解iOS App的启动过程](https://blog.csdn.net/Hello_Hwc/article/details/78317863)
+
 [WWDC2016-406-Optimizing App Startup Time](https://developer.apple.com/videos/play/wwdc2016/406)
 
 优化应用程序启动时间(可调中文字幕)
