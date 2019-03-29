@@ -1,6 +1,6 @@
 ## 传统编译器架构
 
-![屏幕快照 2019-03-26 下午1.54.06.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/716C2AEBEAF9B409A7298AD17F8DF402.png =471x88)
+![屏幕快照 2019-03-26 下午1.54.06.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/716C2AEBEAF9B409A7298AD17F8DF402.png)
 
 * Frontend：前端
   * 词法分析，语法分析，语义分析，生成中间代码Optimizer
@@ -85,5 +85,3 @@
 ![屏幕快照 2019-03-27 下午9.38.05.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/27C9A54C7B527EFA257B648BE17316C8.png)
 ![屏幕快照 2019-03-27 下午9.40.31.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/CF2A595BB57148BDF21985BA5B6F0E83.png)
 ![屏幕快照 2019-03-27 下午9.50.40.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/51CF15E327BF564D2F1A561546BA2F43.png)
-
-## Clang 插件开发
