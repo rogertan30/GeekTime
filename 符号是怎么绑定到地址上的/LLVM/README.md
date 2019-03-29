@@ -1,6 +1,6 @@
 ## 传统编译器架构
 
-![屏幕快照 2019-03-26 下午1.54.06.png](resources/716C2AEBEAF9B409A7298AD17F8DF402.png =471x88)
+![屏幕快照 2019-03-26 下午1.54.06.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/716C2AEBEAF9B409A7298AD17F8DF402.png =471x88)
 
 * Frontend：前端
   * 词法分析，语法分析，语义分析，生成中间代码Optimizer
@@ -12,7 +12,7 @@
   
 ## LLVM编译器架构
 
-![屏幕快照 2019-03-26 下午7.30.01.png](resources/2AC91DAEF6DFDB9AFB0FFFE95B3A4C48.png =565x213)
+![屏幕快照 2019-03-26 下午7.30.01.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/2AC91DAEF6DFDB9AFB0FFFE95B3A4C48.png)
 * 同样分为前端，优化器，后端
 * 后段负责生成不同平台，不同架构的机器码
 * 不同编程语言对应的前端不一样
@@ -37,7 +37,7 @@
   
 ## Clang与LLVM
 
-![屏幕快照 2019-03-27 上午10.39.52.png](resources/F5D8B397FD886C49325FB882E0937EF8.png =474x328)
+![屏幕快照 2019-03-27 上午10.39.52.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/F5D8B397FD886C49325FB882E0937EF8.png)
 
 * 广义的LLVM
   * 整个LLVM架构
@@ -46,7 +46,7 @@
   * LLVM后端（代码优化，目标代码生成）
   
   
-![屏幕快照 2019-03-27 上午10.41.55.png](resources/4694E80E7971274E660D7A1456DFAC4F.png =610x132)
+![屏幕快照 2019-03-27 上午10.41.55.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/4694E80E7971274E660D7A1456DFAC4F.png)
 
 * 左边是编程语言，最右边是机器码
 * 首先通过编译器前端Clang，生成中间代码IR
@@ -54,35 +54,36 @@
 * 中间代码的优化可以自己编写，可以插入一个Pass
 
 ## OC源文件的编译过程
-![屏幕快照 2019-03-27 上午10.56.58.png](resources/AF3DA1C6FFB601FD733C74E327BEE3FD.png =487x208)
+![屏幕快照 2019-03-27 上午10.56.58.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/AF3DA1C6FFB601FD733C74E327BEE3FD.png)
 0. 找到main.m文件
 1. 预处理器，把include，import，宏定义替换掉
     * 把include中的文件拷贝到当前.m文件中
     * 查看preprocessor(预处理)的结果： $ clang -E main.m
 2. 编译器编译为中间代码IR
     * 词法分析，生成Token：  $ clang -fmodules -E -Xclang -dump-tokens main.m
-      * ![屏幕快照 2019-03-27 上午11.07.48.png](resources/09E702E0F6BC4C4608DFB844B764739D.png =487x346)
+      * ![屏幕快照 2019-03-27 上午11.07.48.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/09E702E0F6BC4C4608DFB844B764739D.png)
     * 语法分析，生成语法树（AST，Abstract Syntax Tree）：$ clang -fmodules -fsyntax-only -Xclang -ast-dump main.m
-      * ![屏幕快照 2019-03-27 上午11.23.00.png](resources/A7355D0C6473881A9853D5656E4450D9.png =208x73) 
-      * ![屏幕快照 2019-03-27 上午11.22.23.png](resources/4375B09E7C5AB42D7E1BCD6E5AE07769.png =624x196)3. 交给后端生成目标代码
+      * ![屏幕快照 2019-03-27 上午11.23.00.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/A7355D0C6473881A9853D5656E4450D9.png) 
+      * ![屏幕快照 2019-03-27 上午11.22.23.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/4375B09E7C5AB42D7E1BCD6E5AE07769.png)
+3. 交给后端生成目标代码
 4. 目标代码
 5. 链接动态库，静态库
 6. 变成适合某个架构的代码
 
 ## 语法树 AST
-![屏幕快照 2019-03-27 下午9.27.01.png](resources/CF980BB3E5F714BDDF3F6A4EF7B32850.png =651x423)
+![屏幕快照 2019-03-27 下午9.27.01.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/CF980BB3E5F714BDDF3F6A4EF7B32850.png)
 
 ## 中间代码 LLVM IR
 * IR有3种表示形式（但本质是等价的，就好比水可以有气体，液体，固体3种形式）
   * text：便于阅读的文本格式，类似于汇编语言，拓展名.II $ clang -S -emit-llvm main.m
   * memory：内存格式
   * bitcode：二进制格式，拓展名.bc $ clang -c -emit-llvm main.m
-![屏幕快照 2019-03-27 下午9.33.58.png](resources/9C2DCD6D19D0FC004E91623498191F6F.png =450x232)
+![屏幕快照 2019-03-27 下午9.33.58.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/9C2DCD6D19D0FC004E91623498191F6F.png)
 
 ## 安装Clang
 
-![屏幕快照 2019-03-27 下午9.38.05.png](resources/27C9A54C7B527EFA257B648BE17316C8.png =292x233)
-![屏幕快照 2019-03-27 下午9.40.31.png](resources/CF2A595BB57148BDF21985BA5B6F0E83.png =578x390)
-![屏幕快照 2019-03-27 下午9.50.40.png](resources/51CF15E327BF564D2F1A561546BA2F43.png =514x347)
+![屏幕快照 2019-03-27 下午9.38.05.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/27C9A54C7B527EFA257B648BE17316C8.png)
+![屏幕快照 2019-03-27 下午9.40.31.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/CF2A595BB57148BDF21985BA5B6F0E83.png)
+![屏幕快照 2019-03-27 下午9.50.40.png](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM/resources/51CF15E327BF564D2F1A561546BA2F43.png)
 
 ## Clang 插件开发
