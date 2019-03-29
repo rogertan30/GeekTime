@@ -11,3 +11,7 @@
 [05 | 链接器：符号是怎么绑定到地址上的？](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84)
 
 [06 | App 如何通过注入动态库的方式实现极速编译调试？](https://github.com/rogertan30/GeekTime/tree/master/App%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9F%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95)
+
+[07 | Clang、Infer 和 OCLint ，我们应该使用谁来做静态分析？](https://github.com/rogertan30/GeekTime/tree/master/%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E8%B0%81%E6%9D%A5%E5%81%9A%E9%9D%99%E6%80%81%E5%88%86%E6%9E%90%EF%BC%9F)
+
+[08 | 如何利用 Clang 为 App 提质？](https://github.com/rogertan30/GeekTime/tree/master/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Clang%E4%B8%BAApp%E6%8F%90%E8%B4%A8%EF%BC%9F)
