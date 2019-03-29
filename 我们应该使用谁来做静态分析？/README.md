@@ -1,3 +1,8 @@
+## 扩展阅读
+[swift编码规范](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)
+[SwiftLint的集成和使用](https://www.jianshu.com/p/d8fef88b26de)
+[SwiftLint，规范代码，成为完美的偏执患者](https://www.jianshu.com/p/40aa8695503f)
+
 > 静态分析，这种可以帮助我们在编写代码的阶段就能及时发现代码错误，从而在根儿上保证工程质量的技术，就成为了 iOS 开发者最常用到的一种代码调试技术。
 
 ## OCLint
