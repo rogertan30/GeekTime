@@ -7,7 +7,7 @@
 * 死锁和主子线程抢锁
 
 ## 通过监控 RunLoop 的状态来判断是否会出现卡顿
-![屏幕快照 2019-04-09 下午9.59.49.png](resources/F33D4395744109764D41FF2FB9DB92DB.png =674x377)
+![编译的几个主要过程.png](https://github.com/rogertan30/GeekTime/tree/master/如何利用RunLoop原理去监控卡顿？/images/runloop.png)
 
 如果 RunLoop 的线程，进入睡眠前方法的执行时间过长而导致无法进入睡眠，或者线程唤醒后接收消息时间过长而无法进入下一步的话，就可以认为是线程受阻了。如果这个线程是主线程的话，表现出来的就是出现了卡顿。
 
