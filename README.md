@@ -16,4 +16,7 @@
 
 [08 | 如何利用 Clang 为 App 提质？](https://github.com/rogertan30/GeekTime/tree/master/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Clang%E4%B8%BAApp%E6%8F%90%E8%B4%A8%EF%BC%9F)
 
+[12 | iOS 崩溃千奇百怪，如何全面监控？](https://github.com/rogertan30/GeekTime/tree/master/iOS%20%E5%B4%A9%E6%BA%83%E5%8D%83%E5%A5%87%E7%99%BE%E6%80%AA%EF%BC%8C%E5%A6%82%E4%BD%95%E5%85%A8%E9%9D%A2%E7%9B%91%E6%8E%A7%EF%BC%9F)
+
+
 [13 | 如何利用 RunLoop 原理去监控卡顿？](https://github.com/rogertan30/GeekTime/tree/master/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8RunLoop%E5%8E%9F%E7%90%86%E5%8E%BB%E7%9B%91%E6%8E%A7%E5%8D%A1%E9%A1%BF)
