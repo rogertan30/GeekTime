@@ -65,9 +65,9 @@
 
 # 笔记
 
-[思维导图笔记]()
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/App%E5%90%AF%E5%8A%A8%E9%80%9F%E5%BA%A6%E6%80%8E%E4%B9%88%E5%81%9A%E4%BC%98%E5%8C%96%E4%B8%8E%E7%9B%91%E6%8E%A7%EF%BC%9F/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
-[课程原文件]()
+[课程原文件](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/App%E5%90%AF%E5%8A%A8%E9%80%9F%E5%BA%A6%E6%80%8E%E4%B9%88%E5%81%9A%E4%BC%98%E5%8C%96%E4%B8%8E%E7%9B%91%E6%8E%A7%EF%BC%9F/02%E4%B8%A8App%20%E5%90%AF%E5%8A%A8%E9%80%9F%E5%BA%A6%E6%80%8E%E4%B9%88%E5%81%9A%E4%BC%98%E5%8C%96%E4%B8%8E%E7%9B%91%E6%8E%A7%EF%BC%9F.html)
 
 一般情况下，App 的启动分为冷启动和热启动。
 
