@@ -16,6 +16,8 @@
 
 [08 | 如何利用 Clang 为 App 提质？](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Clang%E4%B8%BAApp%E6%8F%90%E8%B4%A8%EF%BC%9F)
 
+[09 | 无侵入埋点方案如何实现？](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E6%97%A0%E4%BE%B5%E5%85%A5%E7%9A%84%E5%9F%8B%E7%82%B9%E6%96%B9%E6%A1%88%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0)
+
 [12 | iOS 崩溃千奇百怪，如何全面监控？](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/iOS%20%E5%B4%A9%E6%BA%83%E5%8D%83%E5%A5%87%E7%99%BE%E6%80%AA%EF%BC%8C%E5%A6%82%E4%BD%95%E5%85%A8%E9%9D%A2%E7%9B%91%E6%8E%A7%EF%BC%9F)
 
 
