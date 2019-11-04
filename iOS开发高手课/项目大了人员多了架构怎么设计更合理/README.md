@@ -5,8 +5,9 @@
 [23种设计模式iOS实现](https://github.com/huang303513/Design-Pattern-For-iOS)
 
 # 笔记
-[思维导图笔记]()
-[文章原文件]()
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E9%A1%B9%E7%9B%AE%E5%A4%A7%E4%BA%86%E4%BA%BA%E5%91%98%E5%A4%9A%E4%BA%86%E6%9E%B6%E6%9E%84%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%E6%9B%B4%E5%90%88%E7%90%86/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
+
+[文章原文件](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E9%A1%B9%E7%9B%AE%E5%A4%A7%E4%BA%86%E4%BA%BA%E5%91%98%E5%A4%9A%E4%BA%86%E6%9E%B6%E6%9E%84%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%E6%9B%B4%E5%90%88%E7%90%86/04%E4%B8%A8%E9%A1%B9%E7%9B%AE%E5%A4%A7%E4%BA%86%E4%BA%BA%E5%91%98%E5%A4%9A%E4%BA%86%EF%BC%8C%E6%9E%B6%E6%9E%84%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%E6%9B%B4%E5%90%88%E7%90%86%EF%BC%9F.html)
 
 # 摘要
 
