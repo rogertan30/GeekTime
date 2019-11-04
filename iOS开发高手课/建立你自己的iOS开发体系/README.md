@@ -1,4 +1,4 @@
-[思维导图](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E5%BB%BA%E7%AB%8B%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84iOS%E5%BC%80%E5%8F%91%E4%BD%93%E7%B3%BB/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E5%BB%BA%E7%AB%8B%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84iOS%E5%BC%80%E5%8F%91%E4%BD%93%E7%B3%BB/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
 ## 开发阶段
 * 启动的快慢，可谓 App 的门面，同时关乎日常的使用体验，其重要性不言而喻。而只有了解了 App 的启动流程，才能合理安排启动阶段对功能初始化的节奏，将启动速度优化到极致。在专栏的基础篇，我会和你一起剖析 App 启动时都做了哪些事儿，让你可以掌控 App 的启动。
