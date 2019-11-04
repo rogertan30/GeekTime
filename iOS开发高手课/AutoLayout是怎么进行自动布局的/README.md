@@ -4,7 +4,11 @@
 
 [Auto Layout 秘境](https://github.com/johnlui/AutoLayout)
 
-# Auto Layout 是怎么进行自动布局的，性能如何？
+# 笔记
+[思维导图笔记]()
+[文章原文件]()
+
+## Auto Layout 是怎么进行自动布局的，性能如何？
 
 苹果公司早在 iOS 6 系统时就引入了 Auto Layout，但是直到现在还有很多开发者迟迟不愿使用 它，其原因就在于对其性能的担忧。即使后来，苹果公司推出了在 Auto Layout 基础上模仿前端 Flexbox 布局思路的 UIStackView 工具，提高了开发体验和效率，也无法解除开发者们对其性能的顾虑。
 
