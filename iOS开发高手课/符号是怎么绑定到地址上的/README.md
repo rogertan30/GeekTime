@@ -1,27 +1,33 @@
 ## 扩展阅读
 
-[iOS编译过程](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/iOS%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B)
+[iOS编译过程](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/iOS%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B.pdf)
 
-[iOS启动过程](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/iOS%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B)
+[iOS启动过程](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/iOS%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.pdf)
 
-[LLVM介绍](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM)
+[LLVM介绍](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/LLVM.pdf)
 
-[Mach-O介绍](https://github.com/rogertan30/GeekTime/tree/master/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/Mach-O)
+[Mach-O介绍](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/Mach-O.pdf)
 
 [深入剖析iOS编译Clang/LLVM](https://ming1016.github.io/2017/03/01/deeply-analyse-llvm/)
 
 [浅谈iOS编译过程](http://www.cocoachina.com/ios/20181205/25711.html)
 
+## 课程笔记
+
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
+[课程原文件](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84/05%E4%B8%A8%E9%93%BE%E6%8E%A5%E5%99%A8%EF%BC%9A%E7%AC%A6%E5%8F%B7%E6%98%AF%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E5%88%B0%E5%9C%B0%E5%9D%80%E4%B8%8A%E7%9A%84%EF%BC%9F.html)
+
+## 摘要
 
 >为什么有的编译起来很快，有的却很慢；编译完成后，有的启动得很快，有的却很慢。
 
-## iOS 开发为什么使用的是编译器？
+#### iOS 开发为什么使用的是编译器？
 
 **编译器**：把代码编译成机器码，然后直接在 CPU 上执行机器码
 
 **解释器**：在运行时解释执行代码，获取一段代码后就会将其翻译成目标代码（就是字节码（Bytecode）），然后一句一句地执行目标代码。
 
-### 既然编译器效率这么高，那为什么还有人用解释器呢？
+#### 既然编译器效率这么高，那为什么还有人用解释器呢？
 
 你写的程序跑起来后不用重新启动，就可以看到代码修改后的效果，这样就缩短了调试周期。程序发布后，你还可以随时修复问题或者增加新功能，用户也不用一定要等到发布新版本后才可以升级使用。所以说，使用解释器可以帮我们缩短整个程序的开发周期和功能更新周期。
 
@@ -31,13 +37,13 @@
 
 ![编译器和解释器区别.png](https://github.com/rogertan30/GeekTime/tree/master/符号是怎么绑定到地址上的/images/编译器和解释器区别.png)
 
-## iOS 开发使用的到底是什么编译器
+#### iOS 开发使用的到底是什么编译器
 
 现在苹果公司使用的编译器是 LLVM，相比于 Xcode 5 版本前使用的 GCC，编译速度提高了 3 倍。
 
 LLVM 是编译器工具链技术的一个集合。而其中的 lld 项目，就是内置链接器。编译器会对每个文件进行编译，生成 Mach-O（可执行文件）；链接器会将项目中的多个 Mach-O 文件合并成一个。
 
-## iOS 编译的几个主要过程
+#### iOS 编译的几个主要过程
 
 * 首先，你写好代码后，LLVM 会预处理你的代码，比如把宏嵌入到对应的位置。
 
@@ -47,21 +53,21 @@ LLVM 是编译器工具链技术的一个集合。而其中的 lld 项目，就�
 
 ![编译的几个主要过程.png](https://github.com/rogertan30/GeekTime/tree/master/符号是怎么绑定到地址上的/images/编译的几个主要过程.png)
 
-## 编译时链接器做了什么？
+#### 编译时链接器做了什么？
 
 链接器的作用，就是完成变量、函数符号和其地址绑定这样的任务。而这里我们所说的符号，就可以理解为变量名和函数名。
 
-## 为什么要让链接器做符号和地址绑定这样一件事儿呢？不绑定的话，又会有什么问题？
+#### 为什么要让链接器做符号和地址绑定这样一件事儿呢？不绑定的话，又会有什么问题？
 
 如果地址和符号不做绑定的话，要让机器知道你在操作什么内存地址，你就需要在写代码时给每个指令设好内存地址。写这样的代码的过程，就像你直接在和不同平台的机器沟通，连编译生成 AST 和 IR 的步骤都省掉了，甚至优化平台相关的代码都需要你自己编写。
 
-## 链接器为什么还要把项目中的多个 Mach-O 文件合并成一个
+#### 链接器为什么还要把项目中的多个 Mach-O 文件合并成一个
 
 你肯定不希望一个项目是在一个文件里从头写到尾的吧。项目中文件之间的变量和接口函数都是相互依赖的，所以这时我们就需要通过链接器将项目中生成的多个 Mach-O 文件的符号和地址绑定起来。
 
 没有这个绑定过程的话，单个文件生成的 Mach-O 文件是无法正常运行起来的。因为，如果运行时碰到调用在其他文件中实现的函数的情况时，就会找不到这个调用函数的地址，从而无法继续执行。
 
-## 链接器对代码主要做了哪几件事儿
+#### 链接器对代码主要做了哪几件事儿
 
 * 去项目文件里查找目标代码文件里没有定义的变量。
 
@@ -77,7 +83,7 @@ LLVM 是编译器工具链技术的一个集合。而其中的 lld 项目，就�
 
 链接器在整理函数的调用关系时，会以 main 函数为源头，跟随每个引用，并将其标记为 live。跟随完成后，那些未被标记 live 的函数，就是无用函数。然后，链接器可以通过打开 Dead code stripping 开关，来开启自动去除无用代码的功能。并且，这个开关是默认开启的。
 
-## 动态库链接
+#### 动态库链接
 
 **静态库**：是编译时链接的库，需要链接进你的 Mach-O 文件里，如果需要更新就要重新编译一次，无法动态加载和更新
 
@@ -89,7 +95,7 @@ dlopen 会把共享库载入运行进程的地址空间，载入的共享库也�
 
 **使用 dyld 加载动态库，有两种方式**：有程序启动加载时绑定和符号第一次被用到时绑定。为了减少启动时间，大部分动态库使用的都是符号第一次被用到时再绑定的方式。
 
-## dyld 做了什么
+#### dyld 做了什么
 
 * 先执行 Mach-O 文件，根据 Mach-O 文件里 undefined 的符号加载对应的动态库，系统会设置一个共享缓存来解决加载的递归依赖问题；
 
@@ -97,7 +103,7 @@ dlopen 会把共享库载入运行进程的地址空间，载入的共享库也�
 
 * 最后再处理 +load 方法，main 函数返回后运行 static terminator。
 
-## 小结
+#### 小结
 
 编译阶段由于有了链接器，你的代码可以写在不同的文件里，每个文件都能够独立编成 Mach-O 文件进行标记。编译器可以根据你修改的文件范围来减少编译，通过这种方式提高每次编译的速度。
 
