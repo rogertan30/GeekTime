@@ -1,9 +1,12 @@
 ## 扩展阅读
+[iOS应用UI线程卡顿监控](http://mrpeak.cn/blog/ui-detect/)
+
+[iOS-卡顿监测-FPS监测](https://juejin.im/entry/5c8cc988e51d4552775db9d2)
 
 ## 课程笔记
-[思维导图笔记]()
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8RunLoop%E5%8E%9F%E7%90%86%E5%8E%BB%E7%9B%91%E6%8E%A7%E5%8D%A1%E9%A1%BF/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
-[课程原文件]()
+[课程原文件](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8RunLoop%E5%8E%9F%E7%90%86%E5%8E%BB%E7%9B%91%E6%8E%A7%E5%8D%A1%E9%A1%BF/13%E4%B8%A8%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8%20RunLoop%20%E5%8E%9F%E7%90%86%E5%8E%BB%E7%9B%91%E6%8E%A7%E5%8D%A1%E9%A1%BF%EF%BC%9F.html)
 
 ## 摘要
 
@@ -16,7 +19,6 @@
 * 死锁和主子线程抢锁
 
 #### 通过监控 RunLoop 的状态来判断是否会出现卡顿
-![runloop.png](https://github.com/rogertan30/GeekTime/tree/master/如何利用RunLoop原理去监控卡顿/images/runloop.png)
 
 如果 RunLoop 的线程，进入睡眠前方法的执行时间过长而导致无法进入睡眠，或者线程唤醒后接收消息时间过长而无法进入下一步的话，就可以认为是线程受阻了。如果这个线程是主线程的话，表现出来的就是出现了卡顿。
 
