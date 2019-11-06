@@ -2,9 +2,9 @@
 [Injection：iOS热重载背后的黑魔法](https://juejin.im/entry/5b1f4c5f5188257d7c35e9d9)
 
 ## 课程笔记
-[思维导图笔记]()
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/App%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9F%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
-[课程原文件]()
+[课程原文件](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/App%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9F%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95/06%E4%B8%A8App%20%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9F%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95%EF%BC%9F.html)
 
 ## 摘要
 
@@ -23,7 +23,7 @@ inject(tmpfile: String) 的入参 tmpfile 是动态库的文件路径
 当类的方法都被替换后，我们就可以开始重新绘制界面了。整个过程无需重新编译和重启 App，至此使用动态库方式极速调试的目的就达成了。
 
 
-#### 整个过程
+#### 整个过程总结
 
 1. 创建监听SimpleSocket，通过File Watcher监听观察文件改动
 2. 修改代码，保存后重新编译修改的类文件，修改后的文件被编译为了.dylib动态库
