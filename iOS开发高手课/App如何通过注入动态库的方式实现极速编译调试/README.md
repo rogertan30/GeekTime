@@ -1,6 +1,16 @@
+## 扩展阅读
+[Injection：iOS热重载背后的黑魔法](https://juejin.im/entry/5b1f4c5f5188257d7c35e9d9)
+
+## 课程笔记
+[思维导图笔记]()
+
+[课程原文件]()
+
+## 摘要
+
 > iOS 原生代码的编译调试，都是通过一遍又一遍地编译重启 App 来进行的
 
-## Injection for Xcode
+#### Injection for Xcode
 
 Injection 会监听源代码文件的变化，如果文件被改动了，Injection Server 就会执行 rebuildClass 重新进行编译、打包成动态库，也就是 .dylib 文件。编译、打包成动态库后使用 writeSting 方法通过 Socket 通知运行的 App。
 
@@ -12,5 +22,13 @@ inject(tmpfile: String) 的入参 tmpfile 是动态库的文件路径
 
 当类的方法都被替换后，我们就可以开始重新绘制界面了。整个过程无需重新编译和重启 App，至此使用动态库方式极速调试的目的就达成了。
 
-![性能问题](https://github.com/rogertan30/GeekTime/tree/master/App如何通过注入动态库的方式实现极速编译调试/images/原理.png)
+
+#### 整个过程
+
+1. 创建监听SimpleSocket，通过File Watcher监听观察文件改动
+2. 修改代码，保存后重新编译修改的类文件，修改后的文件被编译为了.dylib动态库
+3. 然后通过writestring给我们的App发"INJECT"消息，通知App更新代码
+4. 通过SwiftEval.instance.loadAndInject方法dlopen加载.dylib动态库
+5. 然后通过OC runtime 的class_replaceMethod把整个类的实现方法都替换
+6. 然后再调SwiftInjected.injected我们的类收到消息开始重绘UI
 
