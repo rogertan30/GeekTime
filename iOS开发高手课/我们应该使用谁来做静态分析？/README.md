@@ -6,11 +6,11 @@
 > 静态分析，这种可以帮助我们在编写代码的阶段就能及时发现代码错误，从而在根儿上保证工程质量的技术，就成为了 iOS 开发者最常用到的一种代码调试技术。
 
 ## 课程笔记
-[思维导图笔记]()
+[思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E8%B0%81%E6%9D%A5%E5%81%9A%E9%9D%99%E6%80%81%E5%88%86%E6%9E%90%EF%BC%9F/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
-[课程原文件]()
+[课程原文件](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E8%B0%81%E6%9D%A5%E5%81%9A%E9%9D%99%E6%80%81%E5%88%86%E6%9E%90%EF%BC%9F/07%E4%B8%A8Clang%E3%80%81Infer%20%E5%92%8C%20OCLint%20%EF%BC%8C%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E8%B0%81%E6%9D%A5%E5%81%9A%E9%9D%99%E6%80%81%E5%88%86%E6%9E%90%EF%BC%9F.html)
 
-##摘要
+## 摘要
 
 #### OCLint
 
