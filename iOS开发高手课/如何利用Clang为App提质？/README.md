@@ -1,6 +1,14 @@
+## 扩展阅读
+
+## 课程笔记
+[思维导图笔记]()
+
+[课程原文件]()
+
+## 摘要
 > 通过 Clang 提供的丰富接口功能就可以开发出静态分析工具，进而管控代码质量。基于 Clang 还可以开发出用于代码增量分析、代码可视化、代码质量报告来保障 App 质量的系统平台，比如CodeChecker。
 
-## 什么是 Clang？
+#### 什么是 Clang？
 
 Clang 是 C、C++、Objective-C 的编译前端，而 Swift 有自己的编译前端（也就是 Swift 前端多出的 SIL optimizer）
 
@@ -14,25 +22,25 @@ Clang 是 C、C++、Objective-C 的编译前端，而 Swift 有自己的编译�
 
 * 第五，Clang 的架构是模块化的。除了代码静态分析外，利用其输出的接口还可以开发用于代码转义、代码生成、代码重构的工具，方便与 IDE 进行集成。
 
-## Clang 做了哪些事？
+#### Clang 做了哪些事？
 
 * 首先，Clang 会对代码进行词法分析，将代码切分成Token。输入一个命令可以查看上面代码的所有的 Token。
 
 * 接下来，词法分析完后就会进行语法分析，将输出的 Token 先按照语法组合成语义，生成类似 VarDecl 这样的节点，然后将这些节点按照层级关系构成抽象语法树（AST）。
 
-## Clang 提供了什么能力？
+#### Clang 提供了什么能力？
 
 Clang 为一些需要分析代码语法、语义信息的工具提供了基础设施。这些基础设施就是 LibClang、Clang Plugin 和 LibTooling。
 
-### LibClang
+#### LibClang
 
 LibClang 提供了一个稳定的高级 C 接口，Xcode 使用的就是 LibClang。LibClang 可以访问 Clang 的上层高级抽象的能力，比如获取所有 Token、遍历语法树、代码补全等。由于 API 很稳定，Clang 版本更新对其影响不大。但是，LibClang 并不能完全访问到 Clang AST 信息。
 
-### Clang Plugins
+#### Clang Plugins
 
 Clang Plugins 可以让你在 AST 上做些操作，这些操作能够集成到编译中，成为编译的一部分。插件是在运行时由编译器加载的动态库，方便集成到构建系统中。
 
-### LibTooling
+#### LibTooling
 
 LibTooling 是一个 C++ 接口，通过 LibTooling 能够编写独立运行的语法检查和代码重构工具。
 
@@ -42,7 +50,7 @@ LibTooling 是一个 C++ 接口，通过 LibTooling 能够编写独立运行的�
 
 * 做分析：对源码做任意类型分析，甚至重写程序。给 Clang 添加一些自定义的分析，创建自己的重构器，还可以基于工程生成相关图形或文档进行分析。
 
-## 小结
+#### 小结
 在今天这篇文章中，我和你说了 Clang 做了什么，以及提供了什么能力。从中可以看出，Clang 提供的能力都是基于 Clang AST 接口的。
 
 这个接口的功能非常强大，除了能够获取符号在源码中的位置，还可以获取方法的调用关系，类型定义和源码里的所有内容。
