@@ -27,4 +27,5 @@
 
 [13 | 如何利用 RunLoop 原理去监控卡顿？](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8RunLoop%E5%8E%9F%E7%90%86%E5%8E%BB%E7%9B%91%E6%8E%A7%E5%8D%A1%E9%A1%BF)
 
+[14丨临近 OOM，如何获取详细内存分配信息，分析内存问题？](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E4%B8%B4%E8%BF%91OOM%EF%BC%8C%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E8%AF%A6%E7%BB%86%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E4%BF%A1%E6%81%AF%EF%BC%8C%E5%88%86%E6%9E%90%E5%86%85%E5%AD%98%E9%97%AE%E9%A2%98%EF%BC%9F)
 
