@@ -29,3 +29,6 @@
 
 [14丨临近 OOM，如何获取详细内存分配信息，分析内存问题？](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E4%B8%B4%E8%BF%91OOM%EF%BC%8C%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E8%AF%A6%E7%BB%86%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E4%BF%A1%E6%81%AF%EF%BC%8C%E5%88%86%E6%9E%90%E5%86%85%E5%AD%98%E9%97%AE%E9%A2%98%EF%BC%9F)
 
+15丨日志监控：怎样获取 App 中的全量日志？
+
+[16丨性能监控：衡量 App 质量的那把尺](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%EF%BC%9A%E8%A1%A1%E9%87%8F%20App%20%E8%B4%A8%E9%87%8F%E7%9A%84%E9%82%A3%E6%8A%8A%E5%B0%BA)
