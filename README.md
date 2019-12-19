@@ -1,4 +1,4 @@
-## 极客时间 学习笔记
+### 说明
 
 本笔记主要包括每一节内容的思维导图，以及相关内容扩展阅读。
 
@@ -6,7 +6,7 @@
 
 [什么是MarginNote3](https://www.zhihu.com/search?type=content&q=marginnote3)
 
-## 笔记内容
+### 笔记内容
 
 [iOS开发高手课](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE)
 
@@ -14,5 +14,9 @@
 
 [数据结构与算法之美]()
 
+### 其他
 
+另外推荐小码哥的《恋上数据结构与算法》课程，是我近几年看过最好的算法课。
+
+[小码哥《恋上数据结构与算法》学习笔记](https://github.com/rogertan30/Love-Leetcode)
 
