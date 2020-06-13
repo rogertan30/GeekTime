@@ -1,5 +1,4 @@
 ## 扩展阅读
-[iOS应用UI线程卡顿监控](http://mrpeak.cn/blog/ui-detect/)
 
 [iOS-卡顿监测-FPS监测](https://juejin.im/entry/5c8cc988e51d4552775db9d2)
 
