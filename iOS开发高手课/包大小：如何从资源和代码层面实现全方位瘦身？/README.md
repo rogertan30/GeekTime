@@ -1,7 +1,5 @@
-# 课程笔记
-[思维导图笔记]()
-
-[课程原文件]()
+# 扩展阅读
+[iOS 瘦身之道](https://juejin.im/post/5cdd27d4f265da036902bda5#heading-1)
 
 # 摘要
 
