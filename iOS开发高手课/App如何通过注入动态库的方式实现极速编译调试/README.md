@@ -1,6 +1,8 @@
 ## 扩展阅读
 [Injection：iOS热重载背后的黑魔法](https://juejin.im/entry/5b1f4c5f5188257d7c35e9d9)
 
+[Injection源码深度解析](https://www.jishuwen.com/d/2DiC)
+
 ## 课程笔记
 [思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/App%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9F%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
