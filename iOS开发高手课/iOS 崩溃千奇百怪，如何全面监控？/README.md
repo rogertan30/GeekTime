@@ -1,4 +1,7 @@
 ## 扩展阅读
+[Baymax：网易iOS App运行时Crash自动防护实践](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247488311&amp;idx=1&amp;sn=0db090c8d4a5efafa47f00af4b3f174f&source=41#wechat_redirect)
+
+[防止Crash XXShield 库](https://github.com/ValiantCat/XXShield)
 
 ## 课程笔记
 [思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/iOS%20%E5%B4%A9%E6%BA%83%E5%8D%83%E5%A5%87%E7%99%BE%E6%80%AA%EF%BC%8C%E5%A6%82%E4%BD%95%E5%85%A8%E9%9D%A2%E7%9B%91%E6%8E%A7%EF%BC%9F/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
