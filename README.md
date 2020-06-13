@@ -10,10 +10,6 @@
 
 [iOS开发高手课](https://github.com/rogertan30/GeekTime/tree/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE)
 
-[趣谈网络协议]()
-
-[数据结构与算法之美]()
-
 ### 推荐
 
 另外推荐小码哥的《恋上数据结构与算法》课程，是我近几年看过最好的算法课。
