@@ -9,5 +9,7 @@
 ## 课程摘要
 
 CADisplayLink:与屏幕刷新频率的计时器同步，每次屏幕刷新都会调用一次，所以可以获取到一秒钟屏幕刷新的次数。
+
 线下监控：Instrument，一个工具检测所有。
+
 线上监控：CPU使用直接获取所有线程的cpu_usage计算综合，内存消耗使用task_basic_info的phys_footprint，FPS用CADisplayLink。
