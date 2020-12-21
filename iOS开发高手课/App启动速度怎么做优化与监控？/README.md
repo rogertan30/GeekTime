@@ -1,5 +1,12 @@
 
 # 扩展阅读
+[抖音品质建设 - iOS启动优化《原理篇》](https://juejin.cn/post/6887741815529832456)
+
+[iOS 优化篇 - 启动优化之Clang插桩实现二进制重排](https://juejin.cn/post/6844904130406793224#heading-31)
+
+[iOS 启动优化 + 监控实践](https://juejin.cn/post/6844904194877587469)
+
+[iOS App启动优化（一）：检测启动时间](https://juejin.cn/post/6844904165773328392)
 
 [深入理解iOS App的启动过程](https://blog.csdn.net/Hello_Hwc/article/details/78317863)
 
