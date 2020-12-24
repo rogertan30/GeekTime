@@ -1,5 +1,9 @@
 ## 扩展阅读
-无
+[iOS 性能优化实践：头条抖音如何实现 OOM 崩溃率下降50%+](https://juejin.cn/post/6885144933997494280)
+
+[如何判定发生了OOM](https://juejin.cn/post/6844904035787472910)
+
+[分析字节跳动解决OOM的在线Memory Graph技术实现](https://juejin.cn/post/6895583288451465230)
 
 ## 课程笔记
 [思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/%E4%B8%B4%E8%BF%91OOM%EF%BC%8C%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E8%AF%A6%E7%BB%86%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E4%BF%A1%E6%81%AF%EF%BC%8C%E5%88%86%E6%9E%90%E5%86%85%E5%AD%98%E9%97%AE%E9%A2%98%EF%BC%9F/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
