@@ -1,5 +1,11 @@
 ## 扩展阅读
 
+[天罗地网？ iOS卡顿监控实战（开源）](https://juejin.cn/post/6844904005437489165#heading-1)
+
+[iOS卡顿监测方案总结](https://juejin.cn/post/6844903944867545096#heading-3)
+
+[使用RunLoop检测卡顿](https://juejin.cn/post/6844903987620085774)
+
 [iOS-卡顿监测-FPS监测](https://juejin.im/entry/5c8cc988e51d4552775db9d2)
 
 ## 课程笔记
