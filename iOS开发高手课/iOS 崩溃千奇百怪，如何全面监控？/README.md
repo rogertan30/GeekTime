@@ -3,6 +3,10 @@
 
 [防止Crash XXShield 库](https://github.com/ValiantCat/XXShield)
 
+[iOS Crash防护](https://juejin.cn/post/6874435201632583694#heading-34)
+
+[iOS中常见Crash总结](https://juejin.cn/post/6844903775203753997#heading-3)
+
 ## 课程笔记
 [思维导图笔记](https://github.com/rogertan30/GeekTime/blob/master/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/iOS%20%E5%B4%A9%E6%BA%83%E5%8D%83%E5%A5%87%E7%99%BE%E6%80%AA%EF%BC%8C%E5%A6%82%E4%BD%95%E5%85%A8%E9%9D%A2%E7%9B%91%E6%8E%A7%EF%BC%9F/iOS%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE_withMarginNotes.pdf)
 
