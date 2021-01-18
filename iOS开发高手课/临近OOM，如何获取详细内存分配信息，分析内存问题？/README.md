@@ -1,4 +1,6 @@
 ## 扩展阅读
+[漫谈 iOS Crash 收集框架](https://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ==&mid=208483273&idx=1&sn=37ee88e06e7426f59f3074c536370317&scene=21)
+
 [iOS 性能优化实践：头条抖音如何实现 OOM 崩溃率下降50%+](https://juejin.cn/post/6885144933997494280)
 
 [如何判定发生了OOM](https://juejin.cn/post/6844904035787472910)
